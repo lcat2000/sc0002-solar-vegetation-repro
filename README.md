@@ -2,7 +2,7 @@
 
 **Reproducible case study · Kaohsiung, Taiwan · Sentinel-2 + government parcel records + matched controls**
 
-[繁體中文 README](README.zh-TW.md) · [Verification guide](docs/VERIFY.md) · [Method](docs/METHOD.md) · [Full reproduction](docs/REPRODUCE.md) · [Limitations](docs/LIMITATIONS.md)
+**[Summary page](https://sc0002-solar-vegetation-repro.vercel.app)** · [繁體中文 README](README.zh-TW.md) · [Verification guide](docs/VERIFY.md) · [Method](docs/METHOD.md) · [Full reproduction](docs/REPRODUCE.md) · [Limitations](docs/LIMITATIONS.md)
 
 This repository contains the complete public audit trail for the **SC0002** case study. It is designed so that a reviewer can either:
 

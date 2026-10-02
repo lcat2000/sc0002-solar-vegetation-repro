@@ -2,7 +2,7 @@
 
 **可重現個案研究 · 台灣高雄 · Sentinel-2 + 政府地號資料 + matched controls**
 
-[English README](README.md) · [驗證指南](docs/VERIFY.md) · [研究方法](docs/METHOD.md) · [完整重跑](docs/REPRODUCE.md) · [限制](docs/LIMITATIONS.md)
+**[專案說明頁](https://sc0002-solar-vegetation-repro.vercel.app)** · [English README](README.md) · [驗證指南](docs/VERIFY.md) · [研究方法](docs/METHOD.md) · [完整重跑](docs/REPRODUCE.md) · [限制](docs/LIMITATIONS.md)
 
 這個 repository 整理 SC0002 個案的**完整公開稽核鏈**。第三方可以選擇：
 
