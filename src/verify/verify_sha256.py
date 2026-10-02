@@ -38,6 +38,8 @@ def main():
             return True
         if path.name in {'.DS_Store', 'Thumbs.db'}:
             return True
+        if path.name == '.env' or path.name.startswith('.env.'):
+            return True
         if path.suffix.lower() in {'.pyc', '.pyo', '.pyd'}:
             return True
         return False
