@@ -262,9 +262,9 @@ C162, C172, C176, C222, C129
 ├── verify.sh
 ├── requirements.txt
 ├── requirements-verify.txt
-├── vercel.json
 ├── site/
-│   └── index.html
+│   ├── index.html
+│   └── vercel.json
 ├── .github/workflows/verify-reference.yml
 ├── docs/
 │   ├── VERIFY.md

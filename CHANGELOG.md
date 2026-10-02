@@ -6,8 +6,9 @@
   `verify_archived_results.py` and `verify_rasters.py` to the repository root, so
   every verifier now runs from any current working directory.
 - Removed `__pycache__` bytecode that had been included in the distributed package.
-- Added a static summary page under `site/` plus a root `vercel.json`, so the
-  archive can be published as a public page without touching any analysis file.
+- Added a static summary page under `site/`, published from a Vercel project whose
+  root directory is `site/`, so the archive can go online without putting any web
+  file beside the analysis tree.
 - Added `.vercel/` to `.gitignore` and to the `verify_sha256.py` runtime-ignore
   set, so running the Vercel CLI in a clone does not invalidate the manifest.
 - No scientific inputs, thresholds, archived raw GEE results, control selection, or
