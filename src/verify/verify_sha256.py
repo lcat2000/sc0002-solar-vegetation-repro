@@ -32,7 +32,7 @@ def main():
     def ignored_runtime_path(path):
         rel = path.relative_to(ROOT)
         parts = rel.parts
-        if any(part in {'.git', '.venv', 'venv', '__pycache__'} for part in parts):
+        if any(part in {'.git', '.venv', 'venv', '.vercel', '__pycache__'} for part in parts):
             return True
         if rel.as_posix().startswith(('data/work/', 'data/downloads/', 'data/solar_official/', 'data/solar_locator/', 'gee_exports/', 'review_tif/', 'review_png/')):
             return True

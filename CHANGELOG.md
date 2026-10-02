@@ -8,6 +8,8 @@
 - Removed `__pycache__` bytecode that had been included in the distributed package.
 - Added a static summary page under `site/` plus a root `vercel.json`, so the
   archive can be published as a public page without touching any analysis file.
+- Added `.vercel/` to `.gitignore` and to the `verify_sha256.py` runtime-ignore
+  set, so running the Vercel CLI in a clone does not invalidate the manifest.
 - No scientific inputs, thresholds, archived raw GEE results, control selection, or
   published numerical results changed.
 
