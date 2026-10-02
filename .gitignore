@@ -1,0 +1,13 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+data/work/
+data/downloads/
+data/solar_official/
+data/solar_locator/
+gee_exports/
+review_tif/
+review_png/

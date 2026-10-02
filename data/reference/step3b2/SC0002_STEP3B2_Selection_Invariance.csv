@@ -1,0 +1,6 @@
+scenario,selected_controls,matches_original_frozen_set
+original,C162|C172|C176|C222|C129,YES
+force_C221_pass,C162|C172|C176|C222|C129,YES
+force_C171_pass,C162|C172|C176|C222|C129,YES
+force_C221_C171_pass,C162|C172|C176|C222|C129,YES
+force_all_Top20_pass,C162|C172|C176|C222|C129,YES

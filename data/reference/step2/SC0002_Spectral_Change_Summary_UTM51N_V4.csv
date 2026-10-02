@@ -1,0 +1,8 @@
+metric,value,note,rule,analysis_crs,analysis_scale_m,grid_transform
+AOI_builder_planar_area_ha,63.304526019347165,Source AOI feature property from local EPSG:3826 builder,feature property area_ha,EPSG:32651,10,"10,0,0,0,-10,0"
+AOI_geodesic_area_ha,63.45637540492422,Earth Engine geodesic vector area; not raster-cell area,AOI.geometry().area(1)/10000,EPSG:32651,10,"10,0,0,0,-10,0"
+2022_baseline_spectral_vegetation_ha,58.23981001641681,2022 March-July Sentinel-2 P70 baseline,NDVI_P70>=0.55 AND NDMI_P70>=0.10,EPSG:32651,10,"10,0,0,0,-10,0"
+2022_to_2026_spectral_vegetation_loss_ha,16.795013412664105,pixelArea-based area inside AOI; threshold-defined; not tree loss,baseline vegetation AND NDVI_2022-NDVI_2026>=0.20 AND NDMI_2022-NDMI_2026>=0.10,EPSG:32651,10,"10,0,0,0,-10,0"
+loss_fraction_of_2022_baseline,0.2883768578216494,spectral_loss_ha / 2022_baseline_spectral_vegetation_ha,loss_fraction = spectral_loss_ha / baseline_vegetation_ha,EPSG:32651,10,"10,0,0,0,-10,0"
+2022_to_2026_export_raster_loss_pixel_count,1694.0,QA count from same clipped raster core and export rectangle,"sum(loss raster core), unweighted",EPSG:32651,10,"10,0,0,0,-10,0"
+2022_to_2026_export_raster_nominal_loss_area_ha,16.94,QA only: full-cell count * 100 m2 / 10000; boundary cells are full raster cells,export_raster_loss_pixel_count * 0.01 ha,EPSG:32651,10,"10,0,0,0,-10,0"

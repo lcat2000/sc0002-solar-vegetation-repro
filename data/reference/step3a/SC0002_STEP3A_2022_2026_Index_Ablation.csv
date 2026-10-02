@@ -1,0 +1,4 @@
+system:index,analysis_crs,analysis_scale_m,baseline_vegetation_ha,comparable_baseline_vegetation_ha,comparison,criterion,fraction_of_comparable_2022_baseline,fraction_of_full_2022_baseline,loss_area_ha,.geo
+0,EPSG:32651,10,58.23981001641681,58.23981001565387,2022_to_2026,NDVI_only_drop_ge_0.20,0.29328228658739486,0.2932822865835529,17.08070465180643,"{""type"":""MultiPoint"",""coordinates"":[]}"
+1,EPSG:32651,10,58.23981001641681,58.23981001565387,2022_to_2026,NDMI_only_drop_ge_0.10,0.4214255227626135,0.4214255227570929,24.54374238144223,"{""type"":""MultiPoint"",""coordinates"":[]}"
+2,EPSG:32651,10,58.23981001641681,58.23981001565387,2022_to_2026,NDVI_and_NDMI_combined,0.28837685782542716,0.2883768578216494,16.795013412664105,"{""type"":""MultiPoint"",""coordinates"":[]}"

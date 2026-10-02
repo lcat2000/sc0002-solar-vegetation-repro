@@ -1,0 +1,6 @@
+image_date,review_class,observation,sentinel_window_relation,evidence_status
+2022-02-02,vegetation baseline,SC0002 site remains vegetation-dominated; use the Google Earth bottom status-bar image date when reproducing.,outside March-July Sentinel window,validated local review; screenshot not redistributed
+2023-05-05,clearing/grading,"Major clearing, exposed ground and grading are visible.",inside 2023 March-July Sentinel window; annual P70 may mix pre/post-event observations,validated local review; screenshot not redistributed
+2024-02-17,solar construction,Construction pattern and partial panel rows are visible.,before 2024 March-July Sentinel window,validated local review; screenshot not redistributed
+2025-03-08,mature solar arrays,Large regular ground-mounted photovoltaic arrays are visible.,inside 2025 March-July Sentinel window,validated local review; screenshot not redistributed
+2026-02-12,mature solar persists,Mature photovoltaic development persists with some vegetation remaining around/within the broader AOI.,before 2026 March-July Sentinel window,validated local review; screenshot not redistributed

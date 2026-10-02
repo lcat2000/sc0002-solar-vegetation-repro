@@ -1,0 +1,4 @@
+threshold_name,baseline_ndvi,baseline_ndmi,ndvi_drop_threshold,ndmi_drop_threshold,baseline_vegetation_ha,spectral_loss_ha,loss_fraction_of_2022_baseline,export_raster_loss_pixel_count,export_raster_nominal_loss_area_ha,analysis_crs,analysis_scale_m,grid_transform
+Loose,0.55,0.1,0.15,0.08,58.23981001641681,19.529413533564586,0.3353275625050902,1975.0,19.75,EPSG:32651,10,"10,0,0,0,-10,0"
+Standard,0.55,0.1,0.2,0.1,58.23981001641681,16.795013412664105,0.2883768578216494,1694.0,16.94,EPSG:32651,10,"10,0,0,0,-10,0"
+Strict,0.55,0.1,0.25,0.12,58.23981001641681,14.498827960917176,0.24895046801887236,1461.0,14.61,EPSG:32651,10,"10,0,0,0,-10,0"

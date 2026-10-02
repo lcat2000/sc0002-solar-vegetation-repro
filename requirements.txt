@@ -1,0 +1,14 @@
+pandas>=2.2
+numpy>=2.0
+geopandas>=1.0
+shapely>=2.0
+pyproj>=3.6
+pyogrio>=0.9
+rasterio>=1.4
+Pillow>=10.0
+playwright>=1.50
+requests>=2.32
+urllib3>=2.2
+odfpy>=1.4
+openpyxl>=3.1
+xlrd>=2.0

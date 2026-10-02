@@ -1,0 +1,21 @@
+rank,candidate_id,match_score,contact_sheet_file,screen_pass,exclusion_code,selected_final_control,selected_control_order,review_scene_count_min,review_scene_count_max,notes
+1,C162,0.2517946103081083,01_C162_review_contact_sheet.png,YES,,YES,1,130,172,Predominantly vegetated/rural mosaic; no obvious large 2023-2026 conversion.
+2,C185,0.4652315955619134,02_C185_review_contact_sheet.png,YES,,NO,,130,172,Vegetated/rural mosaic remains visually stable; no obvious solar-scale or major conversion.
+3,C172,0.5171428888591972,03_C172_review_contact_sheet.png,YES,,YES,2,130,172,Vegetated/rural setting with existing buildings/bare patch; no obvious major post-2022 conversion.
+4,C176,0.5363053489651299,04_C176_review_contact_sheet.png,YES,,YES,3,130,172,"Mostly stable vegetated/rural setting. A localized bright linear feature appears in 2026, but it is not large enough in this review to classify as major land-use conversion."
+5,C222,0.6749660652159561,05_C222_review_contact_sheet.png,YES,,YES,4,130,174,Vegetated hillside/rural settlement pattern remains broadly stable through 2026.
+6,C129,0.7415497265258386,06_C129_review_contact_sheet.png,YES,,YES,5,130,172,Highly vegetated site with very limited built footprint; no obvious major post-2022 conversion.
+7,C221,0.747979839198422,07_C221_review_contact_sheet.png,NO,MAJOR_LANDUSE_CHANGE,NO,,130,174,2026 annual RGB shows a substantial new exposed-soil/earthwork area in the lower-left portion relative to 2020-2025; excluded conservatively.
+8,C177,0.8667892619811935,08_C177_review_contact_sheet.png,YES,,NO,,130,172,Rural/vegetated mosaic with pre-existing buildings; no obvious large post-2022 conversion.
+9,C290,1.022337966050791,09_C290_review_contact_sheet.png,YES,,NO,,130,172,Predominantly vegetated/agricultural mosaic; year-to-year appearance remains broadly stable.
+10,C264,1.050633421518259,10_C264_review_contact_sheet.png,YES,,NO,,130,172,Mixed rural/agricultural vegetation with pre-existing development; no obvious major new conversion.
+11,C268,1.1647540155558231,11_C268_review_contact_sheet.png,YES,,NO,,130,172,Vegetated rural site near a pre-existing road; no obvious major post-2022 conversion.
+12,C269,1.1666240511080066,12_C269_review_contact_sheet.png,YES,,NO,,130,172,Densely vegetated site with very small built footprint; no obvious major post-2022 conversion.
+13,C152,1.18077050375492,13_C152_review_contact_sheet.png,YES,,NO,,130,172,"Mostly vegetated rural site. Local bright roof/building signal increases in 2025-2026, but not at a scale classified as major conversion."
+14,C146,1.1810362505497034,14_C146_review_contact_sheet.png,YES,,NO,,130,172,Mixed vegetated/agricultural rural mosaic; exposed-field patches vary but no obvious major persistent conversion.
+15,C241,1.187231291853465,15_C241_review_contact_sheet.png,YES,,NO,,130,172,Vegetated/agricultural pattern remains broadly stable; no obvious major development.
+16,C171,1.2182188665854132,16_C171_review_contact_sheet.png,NO,NOT_COMPARABLE;MAJOR_LANDUSE_CHANGE,NO,,130,172,Large exposed-earth/earthwork area is already prominent by 2022 and additional disturbed/cleared surfaces are visible later; excluded as an active-disturbance/non-comparable control.
+17,C291,1.2662764647709193,17_C291_review_contact_sheet.png,YES,,NO,,130,172,Rural/vegetated site beside a pre-existing road; no obvious major post-2022 conversion.
+18,C179,1.3149144963317976,18_C179_review_contact_sheet.png,YES,,NO,,130,172,Vegetated agricultural/rural mosaic remains broadly stable; no obvious major conversion.
+19,C153,1.4650663691406385,19_C153_review_contact_sheet.png,YES,,NO,,130,172,Predominantly vegetated site with minor existing development; no obvious major post-2022 conversion.
+20,C313,1.502263514331132,20_C313_review_contact_sheet.png,YES,,NO,,130,172,Predominantly vegetated site beside a pre-existing road; no obvious major post-2022 conversion.

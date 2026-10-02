@@ -1,0 +1,34 @@
+SC0002 STEP 3B.4 — MATCHED-CONTROL SENSITIVITY
+==============================================================
+
+Frozen controls: C162, C172, C176, C222, C129
+No control replacement was permitted in this analysis.
+
+Aggregation sensitivity
+------------------------------
+2023: SC0002=25.67%; mean=0.73% (diff +24.93 pp); median=0.45% (diff +25.21 pp); trimmed=0.66% (diff +25.00 pp); highest control=C172 1.52% (conservative gap +24.14 pp)
+2024: SC0002=18.96%; mean=0.52% (diff +18.44 pp); median=0.43% (diff +18.53 pp); trimmed=0.38% (diff +18.58 pp); highest control=C162 1.45% (conservative gap +17.51 pp)
+2025: SC0002=36.99%; mean=0.71% (diff +36.28 pp); median=0.70% (diff +36.29 pp); trimmed=0.79% (diff +36.20 pp); highest control=C162 1.18% (conservative gap +35.82 pp)
+2026: SC0002=28.84%; mean=1.30% (diff +27.54 pp); median=1.15% (diff +27.69 pp); trimmed=1.40% (diff +27.44 pp); highest control=C162 2.25% (conservative gap +26.59 pp)
+
+Leave-one-control-out envelope
+----------------------------------
+2023: LOO control mean range=0.53%–0.88%; smallest SC0002-minus-LOO-mean gap=+24.79 pp
+2024: LOO control mean range=0.29%–0.65%; smallest SC0002-minus-LOO-mean gap=+18.31 pp
+2025: LOO control mean range=0.60%–0.89%; smallest SC0002-minus-LOO-mean gap=+36.11 pp
+2026: LOO control mean range=1.06%–1.61%; smallest SC0002-minus-LOO-mean gap=+27.22 pp
+
+Overall robustness checks
+-----------------------------
+[PASS] all_years_treatment_gt_control_mean
+[PASS] all_years_treatment_gt_control_median
+[PASS] all_years_treatment_gt_trimmed_mean
+[PASS] all_years_treatment_gt_every_control
+[PASS] all_years_all_loo_means_below_treatment
+[PASS] all_years_valid_data_guardrail_pass
+
+Interpretation
+--------------
+The descriptive treatment-control separation is robust to leave-one-control-out analysis, aggregation choice (mean/median/trimmed mean), comparison with the highest-loss individual control, and valid-data coverage.
+
+This remains matched-control descriptive evidence. Do not label the gaps as causal treatment effects without additional causal-identification assumptions.
